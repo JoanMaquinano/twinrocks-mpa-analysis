@@ -1,0 +1,25 @@
+
+# This CITATION.cff cites the article analyzed in this repo. Update as needed.
+cff-version: 1.2.0
+title: "Twin Rocks Marine Sanctuary long-term monitoring analysis"
+authors:
+  - family-names: Maquinano
+    given-names: Joan Kate
+  - family-names: Aurellado
+    given-names: Maria Eleanor
+  - family-names: Samaniego
+    given-names: Badi
+  - family-names: Hilomen
+    given-names: Vincent
+  - family-names: Bacabac
+    given-names: Marion Michael
+  - family-names: Sorgon
+    given-names: Kent Elson
+  - family-names: Simon
+    given-names: Alvin Nowell
+  - family-names: Montebon
+    given-names: Augustus Rex
+  - family-names: Ticzon
+    given-names: Victor
+date-released: 2024-09-12
+message: "If you use this repository, please cite the associated article."
