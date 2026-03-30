@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fewer but Bigger Fish? | Jo Maquinano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      padding-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Back link -->
+  <div class="mb-4">
+    <a href="index.html" class="text-decoration-none">&larr; Back to Portfolio</a>
+  </div>
+
+  <!-- Project Header -->
+  <div class="mb-5">
+    <h1 class="fw-bold">Fewer but Bigger Fish?</h1>
+    <p class="text-muted">
+      Examining the long‑term effects of marine protection in a Philippine marine sanctuary
+    </p>
+  </div>
+
+  <!-- Project Image -->
+  <div class="mb-5 text-center">
+    <img
+      src="images/projects/1.jpg"
+      alt="Twin Rocks Marine Sanctuary data analysis"
+      class="img-fluid rounded shadow"
+    >
+  </div>
+
+  <!-- Overview -->
+  <section class="mb-5">
+    <h3 class="fw-semibold">Project Overview</h3>
+    <p>
+      This project analyzes more than a decade of reef fish monitoring data from the
+      Twin Rocks Marine Sanctuary in Batangas, Philippines. The goal was to assess how
+      long‑term protection influences fish abundance and biomass, using statistically
+      rigorous and reproducible methods.
+    </p>
+  </section>
+
+  <!-- Why It Matters -->
+  <section class="mb-5">
+    <h3 class="fw-semibold">Why This Matters</h3>
+    <p>
+      Long‑term ecological datasets are rare and challenging to analyze due to observer
+      effects, seasonality, and sampling variability. This work prioritizes methodological
+      clarity and transparency, ensuring that observed trends can be meaningfully
+      interpreted and withstand scientific scrutiny.
+    </p>
+  </section>
+
+  <!-- Data & Methods -->
+  <section class="mb-5">
+    <h3 class="fw-semibold">Data & Methodology</h3>
+    <ul>
+      <li>Time span: 2009–2018</li>
+      <li>Focus: target reef fish species ≥ 5 cm</li>
+      <li>Sampling restricted to comparable months to reduce seasonality</li>
+      <li>Statistical modeling and diagnostics performed in <strong>R</strong></li>
+      <li>Emphasis on reproducibility and data validation</li>
+    </ul>
+  </section>
+
+  <!-- Key Findings -->
+  <section class="mb-5">
+    <h3 class="fw-semibold">Key Findings</h3>
+    <p>
+      Results indicate significant differences in fish abundance between protected and
+      comparison sites over time. While total fish counts varied, protected areas showed
+      evidence of increased biomass driven by larger individual fish—highlighting how
+      protection may shift ecosystem structure rather than simply increasing abundance.
+    </p>
+  </section>
+
+  <!-- Tools -->
+  <section class="mb-5">
+    <h3 class="fw-semibold">Tools & Skills Demonstrated</h3>
+    <ul>
+      <li>R (data cleaning, modeling, diagnostics)</li>
+      <li>Longitudinal ecological data analysis</li>
+      <li>Statistical interpretation and validation</li>
+      <li>Reproducible research workflows</li>
+    </ul>
+  </section>
+
+  <!-- Links -->
+  <section class="mb-5">
+    <h3 class="fw-semibold">View Full Work</h3>
+    <div class="d-flex gap-3 flex-wrap">
+      <a
+        href="https://github.com/example/twin-rocks-analysis"
+        class="btn btn-outline-dark"
+        target="_blank"
+      >
+        Source Code
+      </a>
+
+      <a
+        href="https://www.researchgate.net/publication/393413200_Fewer_but_bigger_fish_Examining_the_long-term_effects_of_protection_in_a_marine_sanctuary_in_Verde_Island_Passage"
+        class="btn btn-outline-primary"
+        target="_blank"
+      >
+        Article
+      </a>
+
+      <a
+        href="https://example.github.io/twin-rocks-analysis/TwinRocks-longterm-monitoring.html"
+        class="btn btn-outline-secondary"
+        target="_blank"
+      >
+        Full Analysis (HTML Notebook)
+      </a>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
