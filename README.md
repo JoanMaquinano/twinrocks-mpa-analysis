@@ -6,3 +6,6 @@ study on long-term reef fish monitoring at Twin Rocks Marine Sanctuary.
 The analysis focuses on data validation, longitudinal comparisons, and
 statistical diagnostics to assess how marine protection affects fish
 abundance and biomass over time.
+
+The included HTML notebook demonstrates the full analytical workflow,
+with selected outputs preserved for transparency rather than execution.
